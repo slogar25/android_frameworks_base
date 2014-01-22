@@ -1821,6 +1821,8 @@
   <java-symbol type="drawable" name="ic_navigation_ring_torch_off" />
   <java-symbol type="drawable" name="ic_navigation_ring_vibrate" />
   <java-symbol type="drawable" name="ic_navigation_ring_lastapp" />
-
   <java-symbol type="bool" name="config_offscreenGestureSupport" />
+
+  <!-- Wifi -->
+  <java-symbol type="bool" name="config_wifiApFirmwareReload" />
 </resources>
