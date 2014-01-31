@@ -2645,6 +2645,24 @@ public final class Settings {
         public static final String LOCKSCREEN_TARGETS = "lockscreen_targets";
 
         /**
+         * Whether camera should be shown on lockscreen
+         * @hide
+         */
+        public static final String LOCKSCREEN_ENABLE_CAMERA = "lockscreen_enable_camera";
+
+        /**
+         * This preference enables showing the power menu on LockScreen.
+         * @hide
+         */
+        public static final String LOCKSCREEN_ENABLE_POWER_MENU = "lockscreen_enable_power_menu";
+
+        /**
+         * Allows to show the background activity back the lockscreen
+         * @hide
+         */
+        public static final String LOCKSCREEN_SEE_THROUGH = "lockscreen_see_through";
+
+        /**
          * Whether to display notifications on screen when screen is off
          * @hide
          */
@@ -2934,6 +2952,12 @@ public final class Settings {
          */
         public static final String SCREEN_OFF_ANIMATION = "screen_off_animation";
 
+        /**
+         * Defines the custom path to use for UI sound effects (null for default)
+         * @hide
+         */
+        public static final String CUSTOM_SOUND_EFFECTS_PATH = "custom_sound_effects_path";
+
          /**
           * Action to perform when the key is pressed
           * 0 - Nothing
@@ -3127,6 +3151,13 @@ public final class Settings {
         public static final String QUICK_SETTINGS_TILES_ROW = "quick_settings_tiles_row";
 
         /**
+         * Navigation controls to Use
+         *
+         * @hide
+         */
+        public static final String NAV_BUTTONS = "nav_buttons";
+
+        /**
          * Volume key controls ringtone or media sound stream
          *
          * @hide
@@ -3231,6 +3262,13 @@ public final class Settings {
          * @hide
          */
         public static final String QS_QUICK_PULLDOWN = "qs_quick_pulldown";
+
+        /**
+         * Quick Settings Smart Pulldown
+         *
+         * @hide
+         */
+        public static final String QS_SMART_PULLDOWN = "qs_smart_pulldown";
 
         /**
           * Volume keys control cursor in text fields (default is 0)
